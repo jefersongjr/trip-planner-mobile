@@ -21,12 +21,14 @@ export default function Index() {
     }
 
   return (
-    <View className="flex-1 px-4 items-center justify-center">
+    <View className="flex-1 px-5 items-center justify-center">
       <Image 
         source={require("@/assets/logo.png")} 
         className="h-8" 
         resizeMode="contain"
       />
+
+      <Image source={require("@/assets/bg.png")} className="absolute"/>
       <Text 
         className="text-zinc-400 font-regular text-center text-lg mt-3"
       >
