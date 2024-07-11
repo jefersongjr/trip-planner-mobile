@@ -16,7 +16,7 @@ export default function Index() {
       </Text>
       <View>
         <Input>
-          <Input.Field />
+          <Input.Field placeholder="Para onde vamos?"/>
         </Input>
       </View>
     </View>
